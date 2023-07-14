@@ -1,0 +1,34 @@
+.App {
+  text-align: center;
+  /* margin: 100px; */
+}
+
+
+.main {
+  margin-top: 100px;
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-between;
+  /* align-items: space-between; */
+}
+
+.dropdown {
+  width: 400px;
+}
+
+.order-book {
+  display: flex;
+  justify-content: center;
+}
+
+.ask-orders, .bid-orders {
+  margin-left: 50px;
+  margin-right: 50px;
+  width: 300px;
+}
+
+.order-book-container {
+  margin-top: 40px;
+}
