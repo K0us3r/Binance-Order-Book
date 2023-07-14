@@ -78,7 +78,7 @@ const OrderBook = (props) => {
                             </tr>
                             </thead>
                             <tbody>
-                                {data.a.map(ask => <tr><td>{ask[0]}</td><td>{ask[1]}</td></tr>)}
+                                {data.a.map((ask, i) => <tr key={"ask-"+i}><td>{ask[0]}</td><td>{ask[1]}</td></tr>)}
                             </tbody>
                         </Table>
                     </div>
@@ -92,7 +92,7 @@ const OrderBook = (props) => {
                             </tr>
                             </thead>
                             <tbody>
-                            {data.b.map(bid => <tr><td>{bid[0]}</td><td>{bid[1]}</td></tr>)}
+                            {data.b.map((bid, i) => <tr key={"bid-"+i}><td>{bid[0]}</td><td>{bid[1]}</td></tr>)}
                             </tbody>
                         </Table>
                     </div>
